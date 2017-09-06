@@ -1,7 +1,6 @@
 package com.wangyj.redisdemo.repository.impl;
 
 
-import com.wangyj.redisdemo.User;
 import com.wangyj.redisdemo.repository.ValueRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
