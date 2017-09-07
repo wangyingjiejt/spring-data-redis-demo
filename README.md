@@ -5,12 +5,12 @@ spring-data-redis操作数据的demo,包括相关配置，以及String,list,set,
 * 测试:/test
 ## repository中根据redis的5种数据类型进行划分：
 ### ValueRepository 
-字符串
+String-字符串
 ### ListRepository
-List
+List-列表
 ### SetRepository
-Set
+Set-集合
 ### HashRepository
-Hash
+Hash-哈希
 ### ZsetRepository
-Zset
+Zset-有序集合
