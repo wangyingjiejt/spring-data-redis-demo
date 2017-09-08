@@ -41,6 +41,9 @@ public class RedisConfig {
         Jackson2JsonRedisSerializer<Object> jrs = new Jackson2JsonRedisSerializer<Object>(Object.class);
         template.setKeySerializer(srs);
         template.setValueSerializer(jrs);
+        //配置hash数据结构中的key、value序列化方式
+        template.setHashKeySerializer(srs);
+        template.setHashValueSerializer(jrs);
         return template;
     }
 
