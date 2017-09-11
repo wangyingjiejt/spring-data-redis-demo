@@ -27,6 +27,7 @@ public class RedisConfig {
         jcf.setHostName(REDIS_HOST);
         jcf.setPort(REDIS_PORT);
         jcf.setUsePool(true);
+        // 如过设置了安全访问，在这里可以设置用户名密码
         return jcf;
     }
 
